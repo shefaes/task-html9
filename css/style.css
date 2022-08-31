@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+header{
+    padding: 0 4rem;
+    margin: 20px 0;
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.all .left{
+    width: 23%;
+    font-size: 15.23px;
+}
+.left h4{
+    
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-family: m-bold;
+}
+.navbar{
+    width: 70%;
+   
+    text-decoration: none;
+}
+ .navbar a{
+    color: black;
+    font-size: 17px;
+    margin: 0 10px;
+   
+ }
+ 
+ .all .right{
+    display: flex;
+    justify-content: center;
+    width: 7%;
+ }
+ .right a{
+    font-size: 15px;
+    margin: 0 10px;
+ }
+ #phone-header{
+    display: none;
+    padding: 20px 0;
+ }
+ .ph-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .ph-all .leftphone{
+    width: 50%;
+    display: flex;
+ }
+ .ph-all .rightphone{
+    width: 50%;
+    padding-left: 10rem;
+ }
+ .rightphone{
+    
+ }
+ .rightphone .icon{
+    display: flex;
+    padding: 20px;
+ }
+
+ @media(max-width:576px){
+    header{
+        display: none;
+    }
+    #phone-header{
+        display: block;
+    }
+ }
+
+
+
+ .main{
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .main .leftmain{
+    width: 70%;
+ } 
+ 
+ .leftmain a{
+    font-size: 50px;
+ }
+   .main .rightmain{
+    width: 40%;
+   
+}
+.rightmain .class{
+    height: 124px;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.class a{
+    color: white;
+    font-weight: bold;
+
+}
+.gerbyazi {
+    display: block;
+}
+.gerbyazi .gerb{
+    width: 20%;
+}
+.gerbyazi .yazi{
+    width: 80%;
+}
